@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<title>Formular </title>
+		<link rel="stylesheet" type="text/css" href="css/style_contact.css?v=3">	
+			<!--marimea egala cu cea a ecranului-->
+<meta name="viewport" content="width=device-width, initial scale:1.0">
+<!--legatura cu css-ul-->
+
+<head>
+<body>
+	
+	<!--div pentru navbar-->
+	  <header>
+    <nav id="navbar">
+        <ul>
+          <li><a href="index.html">Landing</a></li>
+          <li><a href="prezentare.html">Prezentare</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+</header>	
+           <div class="contact-title">
+           	<h1>Contactati-ne!</h1>
+			
+			<div class="contact-form">
+			 <form id="contact-form" action="php/contactform.php" method="post" >
+			<input type="text" name="name" class="form-control" placeholder="Numele si prenumele" required>		    
+ 			<br>
+ 			<input type="email" name="email" class="form-control" placeholder="Introduceti o adresa de e-mail" required>
+ 			<br>
+ 			
+ 			<textarea type="message" name="message" class="form-control" placeholder="Scrieti mesajul dvs." row="4" required></textarea>
+ 			<br>
+  			<input type="submit" name="submit" class="form-control submit" value="Trimiteti" />
+ 			</div>
+ 			</div>
+ 			</form>
+			</div>
+			
+		</body>	
+</html>
